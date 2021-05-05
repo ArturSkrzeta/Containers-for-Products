@@ -3,7 +3,6 @@ def wrap_order(amount):
     if amount > 100:
         return "Max amount is 100!"
 
-
     if amount > 15:
         if amount % 9 == 0:
             return(str(int(amount/9)) + " big container(s)")
